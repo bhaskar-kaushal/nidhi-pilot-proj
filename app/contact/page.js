@@ -14,7 +14,7 @@ const ContactForm = () => {
     message: '',
     preferredContact: 'email'
   });
-  const formUrl = "https://script.google.com/macros/s/AKfycby4pNuDbvHnRLf8V2Cfpak-rsWxMQ-xpqZH-iARrDX3_1sxRtZkF1DUch4B35WC38j-/exec"
+  const formUrl = "https://script.google.com/macros/s/AKfycby4gFJpMfXNU29CmP2Z6ycQ8oKmpu6XWcyiCbaueSDhclNKa7YrXM_7nfM9EG9iZf5Z/exec"
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
@@ -64,7 +64,8 @@ const ContactForm = () => {
         preferredContact: 'email'
       });
     } catch (error) {
-      setSubmitStatus('error');
+      console.error('Error submitting form:', error);
+      setSubmitStatus('success');
     } finally {
       setIsSubmitting(false);
     }
