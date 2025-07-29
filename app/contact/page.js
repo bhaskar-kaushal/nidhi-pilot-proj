@@ -14,7 +14,7 @@ const ContactForm = () => {
     message: '',
     preferredContact: 'email'
   });
-  const formUrl = "https://script.google.com/macros/s/AKfycbymeSditNOmR9ykxKZojFHwddOYFywNsH6gVJ2e851sVvfJaAhm43OR1UtXSs2s--tr/exec"
+  const formUrl = "https://script.google.com/macros/s/AKfycby4pNuDbvHnRLf8V2Cfpak-rsWxMQ-xpqZH-iARrDX3_1sxRtZkF1DUch4B35WC38j-/exec"
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
@@ -47,8 +47,9 @@ const ContactForm = () => {
       const response = await fetch(formUrl, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'text/plain;charset=utf-8'
         },
+        redirect: 'follow' ,
         body: JSON.stringify(formData)
       });
       console.log(response);
