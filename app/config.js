@@ -54,6 +54,7 @@ export const config = {
         {
             name: "Rajesh Kumar",
             position: "CEO, Tech Innovations Pvt. Ltd.",
+            rating: 5,
             feedback: "The team at ShankarShekhar Associates has been instrumental in our financial success. Their expertise in tax planning and compliance has saved us significant costs."
         }
     ],
