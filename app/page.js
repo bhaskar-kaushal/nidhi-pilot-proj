@@ -118,7 +118,7 @@ const HomePage = () => {
                       <span key={i}>⭐</span>
                     ))}
                   </div>
-                  <p>"{testimonial.feedback}"</p>
+                  <p>&quote;{testimonial.feedback}&quote;</p>
                 </div>
                 <div className="testimonial-author">
                   <strong>{testimonial.name}</strong>
