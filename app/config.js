@@ -12,6 +12,38 @@ export const config = {
     various domains of accounting, taxation, audit, and business advisory services.Today, we proudly serve clients ranging from startups and SMEs to large corporations, helping 
     them navigate complex financial landscapes with confidence and achieve sustainable growth`,
     contactNumber: "+91 83600 96251",
+    contactMethods: [
+        {
+            icon: '📞',
+            title: 'Phone',
+            lines: ['CA Nidhi Kaushal', '+91 83600 96251'],
+            note: 'Mon-Fri 9:00 AM - 6:00 PM'
+        },
+        {
+            icon: '📞',
+            title: 'Phone',
+            lines: ['CA Ajay Shankar Ojha', '+91 84471 10323'],
+            note: 'Mon-Fri 9:00 AM - 6:00 PM'
+        },
+                {
+            icon: '📞',
+            title: 'Phone',
+            lines: ['CA Rohit Shekhar', '+91 99535 02668'],
+            note: 'Mon-Fri 9:00 AM - 6:00 PM'
+        },
+        {
+            icon: '✉️',
+            title: 'Email',
+            lines: ['cashankarshekhar@gmail.com'],
+            note: '24/7 Online Support'
+        },
+        {
+            icon: '📍',
+            title: 'Office',
+            lines: ['Shankar Shekhar & Associates', 'F135 5th Floor Phas 8B, Industralia Area SAS Nagar, Mohali, Punjab'],
+            note: 'Visit by appointment'
+        }
+    ],
     services : [
         {
         icon: '📊',

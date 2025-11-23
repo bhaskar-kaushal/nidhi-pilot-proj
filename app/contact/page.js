@@ -84,43 +84,20 @@ const ContactForm = () => {
               </p>
               
               <div className="contact-methods">
-                <div className="contact-method">
-                  <div className="contact-icon">📞</div>
-                  <div>
-                    <h4>Phone</h4>
-                    <p>Nidhi Kaushal</p>
-                    <p>{contactNumber}</p>
-                    <span>Mon-Fri 9:00 AM - 6:00 PM</span>
+                {config.contactMethods && config.contactMethods.map((method, idx) => (
+                  <div className="contact-method" key={idx}>
+                    <div className="contact-icon">{method.icon}</div>
+                    <div>
+                      <h4>{method.title}</h4>
+                      {method.lines && method.lines.map((line, i) => (
+                        <p key={i}>{line}</p>
+                      ))}
+                      {method.note && <span>{method.note}</span>}
+                    </div>
                   </div>
-                </div>
-                
-                <div className="contact-method">
-                  <div className="contact-icon">✉️</div>
-                  <div>
-                    <h4>Email</h4>
-                    <p>info@cafirm.com</p>
-                    <span>24/7 Online Support</span>
-                  </div>
-                </div>
-                
-                <div className="contact-method">
-                  <div className="contact-icon">📍</div>
-                  <div>
-                    <h4>Office</h4>
-                    <p>{name}<br/>Mohali Industralia Area</p>
-                    <span>Visit by appointment</span>
-                  </div>
-                </div>
+                ))}
               </div>
 
-              <div className="certifications">
-                <h4>Professional Certifications</h4>
-                <div className="cert-badges">
-                  <span className="cert-badge">ICAI Member</span>
-                  <span className="cert-badge">GST Practitioner</span>
-                  <span className="cert-badge">Tax Consultant</span>
-                </div>
-              </div>
             </div>
 
             <div className="contact-form">
