@@ -3,7 +3,7 @@ const foundationYear = 2025;
 const clients = 15
 const companySize = 10;
 export const config = {
-    homeHeading: "Strategic Financial Solutions for Your Business Successsss",
+    homeHeading: "Strategic Financial Solutions for Your Business Success",
     homeSubheading: "Chartered Accountants with comprehensive experience, Committed to excellence and client satisfaction",
     aboutHeading : `With over ${yearsOfExperience} years of excellence in financial services, we are your trusted partners in navigating the complex world of accounting, taxation, and business advisory.`,
     aboutSubHeading : `Established in ${foundationYear}, our firm began with a simple yet powerful vision: to provide exceptional financial services that empower businesses and individuals to achieve 
@@ -54,17 +54,7 @@ export const config = {
         {
             name: "Rajesh Kumar",
             position: "CEO, Tech Innovations Pvt. Ltd.",
-            feedback: "The team at ABC & Co. has been instrumental in our financial success. Their expertise in tax planning and compliance has saved us significant costs."
-        },
-        {
-            name: "Sita Verma",
-            position: "Founder, Green Earth Solutions",
-            feedback: "Their audit services are thorough and professional. We trust them completely with our financial matters."
-        },
-        {
-            name: "Anil Mehta",
-            position: "CFO, Global Enterprises",
-            feedback: "ABC & Co. provides exceptional business advisory services that have helped us streamline our operations and improve profitability."
+            feedback: "The team at ShankarShekhar Associates has been instrumental in our financial success. Their expertise in tax planning and compliance has saved us significant costs."
         }
     ],
     stats : [
@@ -75,8 +65,8 @@ export const config = {
     companyDetails: { "name" : "Shankar Shekhar & Associates", "yearsOfExperience": yearsOfExperience, "foundationYear": foundationYear, "clients": clients, "companySize": companySize},
     teamMembers : [
         {
-        name: 'CA Shankar',
-        designation: 'Managing Partner',
+        name: 'CA Ajay Shankar Ojha',
+        designation: 'Partner',
         experience: '20+ Years',
         specialization: 'Tax Planning & Corporate Law',
         image: '👨‍💼',
@@ -91,19 +81,11 @@ export const config = {
         qualifications: ['Chartered Accountant', 'GST Practitioner', 'Tax Consultant']
         },
         {
-        name: 'CA Shekhar',
+        name: 'CA Rohit Shekhar',
         designation: 'Partner',
         experience: '12+ Years',
         specialization: 'GST & Indirect Taxes',
         image: '👨‍💼',
-        qualifications: ['Chartered Accountant', 'GST Practitioner', 'Tax Consultant']
-        },
-        {
-        name: 'CA Mohit',
-        designation: 'Associate Partner',
-        experience: '8+ Years',
-        specialization: 'Financial Planning & Advisory',
-        image: '👩‍💼',
         qualifications: ['Chartered Accountant', 'GST Practitioner', 'Tax Consultant']
         }
     ],
