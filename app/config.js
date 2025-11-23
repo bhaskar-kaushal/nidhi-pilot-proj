@@ -3,7 +3,7 @@ const foundationYear = 2025;
 const clients = 15
 const companySize = 10;
 export const config = {
-    homeHeading: "Strategic Financial Solutions for Your Business Success",
+    homeHeading: "Strategic Financial Solutions for Your Business Successsss",
     homeSubheading: "Chartered Accountants with comprehensive experience, Committed to excellence and client satisfaction",
     aboutHeading : `With over ${yearsOfExperience} years of excellence in financial services, we are your trusted partners in navigating the complex world of accounting, taxation, and business advisory.`,
     aboutSubHeading : `Established in ${foundationYear}, our firm began with a simple yet powerful vision: to provide exceptional financial services that empower businesses and individuals to achieve 
