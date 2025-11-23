@@ -1,6 +1,6 @@
 const yearsOfExperience = "comprehensive";
 const foundationYear = 2025;
-const clients = 15
+const clients = 10
 const companySize = 10;
 export const config = {
     homeHeading: "Strategic Financial Solutions for Your Business Success",
