@@ -1,15 +1,15 @@
 const yearsOfExperience = "comprehensive";
 const foundationYear = 2025;
-const clients = 10
+const clients = 15
 const companySize = 10;
 export const config = {
     homeHeading: "Strategic Financial Solutions for Your Business Success",
     homeSubheading: "Chartered Accountants with comprehensive experience, Committed to excellence and client satisfaction",
-    aboutHeading : `With over ${yearsOfExperience} years of excellence in financial services, we are your trusted partners in navigating the complex world of accounting, taxation, and business advisory.`,
-    aboutSubHeading : `Established in ${foundationYear}, our firm began with a simple yet powerful vision: to provide exceptional financial services that empower businesses and individuals to achieve 
-    their financial goals. What started as a small practice has grown into one of the most trusted chartered accountancy firms in the region.Over the years, we have built our reputation on the 
-    foundation of professional excellence, ethical practices, and client-focused service delivery. Our team of experienced professionals brings together decades of combined expertise across 
-    various domains of accounting, taxation, audit, and business advisory services.Today, we proudly serve over 50 clients ranging from startups and SMEs to large corporations, helping 
+    aboutHeading : `We are your trusted partners in navigating the complex world of accounting, taxation, and business advisory.`,
+    aboutSubHeading : `Our firm began with a simple yet powerful vision: to provide exceptional financial services that empower businesses and individuals to achieve 
+    their financial goals. What started as a small practice has grown into one of the most trusted chartered accountancy firms in the region.We have built our reputation on the 
+    foundation of professional excellence, ethical practices, and client-focused service delivery. Our team of experienced professionals brings together combined expertise across 
+    various domains of accounting, taxation, audit, and business advisory services.Today, we proudly serve clients ranging from startups and SMEs to large corporations, helping 
     them navigate complex financial landscapes with confidence and achieve sustainable growth`,
     contactNumber: "+91 83600 96251",
     services : [
@@ -68,26 +68,26 @@ export const config = {
         {
         name: 'CA Ajay Shankar Ojha',
         designation: 'Partner',
-        experience: '20+ Years',
+        experience: '',
         specialization: 'Tax Planning & Corporate Law',
-        image: '👨‍💼',
-        qualifications: ['Chartered Accountant', 'GST Practitioner', 'Tax Consultant']
+        image: '',
+        qualifications: ['Chartered Accountant', ]
         },
         {
         name: 'CA Nidhi Kaushal',
         designation: 'Senior Partner',
-        experience: '15+ Years',
+        experience: '',
         specialization: 'Audit & Assurance',
-        image: '👩‍💼',
-        qualifications: ['Chartered Accountant', 'GST Practitioner', 'Tax Consultant']
+        image: '',
+        qualifications: ['Chartered Accountant']
         },
         {
         name: 'CA Rohit Shekhar',
         designation: 'Partner',
-        experience: '12+ Years',
+        experience: '',
         specialization: 'GST & Indirect Taxes',
-        image: '👨‍💼',
-        qualifications: ['Chartered Accountant', 'GST Practitioner', 'Tax Consultant']
+        image: '',
+        qualifications: ['Chartered Accountant', ]
         }
     ],
     milestones : [
